@@ -8,7 +8,7 @@
 ```python
 # Configure your endpoint (get this from KeyAuth dashboard)
 response = requests.post(
-    "https://[YOUR-APP].keyauth.com/api/1.2/",  # ✏️ Edit this!
+    "https://[YOUR-APP-URL/api/1.2/",  # ✏️ Edit this!
     data=data,
     timeout=10
 )
