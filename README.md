@@ -12,3 +12,16 @@ response = requests.post(
     data=data,
     timeout=10
 )
+
+
+Change It with Your
+
+```python 🏷️ App Name 👑 Owner ID  🏷️ Version ❗ KEEP THIS SECRET!
+
+# 🔑 Authentication Setup (Get these from your KeyAuth dashboard)
+auth = KeyAuth(
+    name="my_cool_app",     # 🏷️ App Name
+    ownerid="abc123",       # 👑 Owner ID  
+    version="1.0",          # 🏷️ Version
+    secret="sk_*******"     # ❗ KEEP THIS SECRET!
+)
