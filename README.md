@@ -1,23 +1,14 @@
-Project Authentication Setup
-🔐 KeyAuth Integration
-This project uses KeyAuth for secure authentication. Follow these steps to configure it properly.
+# 🔒 Secure Authentication System
 
-🚀 Quick Setup
-Replace API Endpoint:
+![KeyAuth Shield](https://img.shields.io/badge/Protected_by-KeyAuth-important?style=for-the-badge&logo=keybase)
+![GitHub](https://img.shields.io/badge/Version-1.0-blue?style=for-the-badge)
 
-python
+## 🚀 Getting Started
+
+```python
+# Configure your endpoint (get this from KeyAuth dashboard)
 response = requests.post(
-    "https://your-custom-url.keyauth.com/api/1.2/",  # Replace with your KeyAuth URL
+    "https://[YOUR-APP].keyauth.com/api/1.2/",  # ✏️ Edit this!
     data=data,
     timeout=10
 )
-Authentication Setup:
-
-python
-auth = KeyAuth(
-    name="your_app_name",       # From KeyAuth dashboard
-    ownerid="your_owner_id",    # From KeyAuth account
-    version="1.0",             # Your app version
-    secret="your_secret_key"   # From KeyAuth app settings
-)
-⚠️ Security Notice
